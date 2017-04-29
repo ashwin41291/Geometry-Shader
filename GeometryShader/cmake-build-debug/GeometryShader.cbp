@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GeometryShader"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GeometryShader">
+				<Option output="/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/GeometryShader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/Ash/CLionProjects/GeometryShader/./include"/>
+					<Add directory="/Users/Ash/CLionProjects/GeometryShader/./data"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 GeometryShader"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GeometryShader/fast">
+				<Option output="/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/GeometryShader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/Ash/CLionProjects/GeometryShader/./include"/>
+					<Add directory="/Users/Ash/CLionProjects/GeometryShader/./data"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 GeometryShader/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/GeometryShader/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/LoadShaders.cpp">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/geometry.frag">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/geometry.vert">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/geometryshader.cpp">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/gl3w.c">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/lines.geom">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/lines2.geom">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/points.geom">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/points2.geom">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/triangle2.frag">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/triangle2.vert">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/triangles.geom">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/triangles2.geom">
+			<Option target="GeometryShader"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/geometry.vert">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/geometry.frag">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/triangle2.frag">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/triangle2.vert">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/triangles2.geom">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/triangles.geom">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/points.geom">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/points2.geom">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/lines.geom">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/GeometryShader/lines2.geom">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

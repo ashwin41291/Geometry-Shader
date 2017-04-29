@@ -1,0 +1,1 @@
+/usr/bin/g++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/geotest.dir/gl3w.c.o CMakeFiles/geotest.dir/LoadShaders.cpp.o CMakeFiles/geotest.dir/viewer.cpp.o CMakeFiles/geotest.dir/loadObj.cpp.o CMakeFiles/geotest.dir/ReadScene.cpp.o  -o geotest -framework OpenGL -framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo -lglfw 

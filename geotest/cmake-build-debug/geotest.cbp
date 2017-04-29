@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="geotest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Ash/CLionProjects/geotest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Ash/CLionProjects/geotest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Ash/CLionProjects/geotest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geotest">
+				<Option output="/Users/Ash/CLionProjects/geotest/cmake-build-debug/geotest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Ash/CLionProjects/geotest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/Ash/CLionProjects/geotest/./data"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 geotest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geotest/fast">
+				<Option output="/Users/Ash/CLionProjects/geotest/cmake-build-debug/geotest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Ash/CLionProjects/geotest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Users/Ash/CLionProjects/geotest/./data"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 geotest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Ash/CLionProjects/geotest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Ash/CLionProjects/geotest/BlinnPhong.frag">
+			<Option target="geotest"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/geotest/BlinnPhong.vert">
+			<Option target="geotest"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/geotest/LoadShaders.cpp">
+			<Option target="geotest"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/geotest/ReadScene.cpp">
+			<Option target="geotest"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/geotest/ReadScene.h">
+			<Option target="geotest"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/geotest/gl3w.c">
+			<Option target="geotest"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/geotest/loadObj.cpp">
+			<Option target="geotest"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/geotest/loadObj.h">
+			<Option target="geotest"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/geotest/viewer.cpp">
+			<Option target="geotest"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/geotest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/geotest/BlinnPhong.vert">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/geotest/BlinnPhong.frag">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Ash/CLionProjects/geotest/geometry.geom">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
